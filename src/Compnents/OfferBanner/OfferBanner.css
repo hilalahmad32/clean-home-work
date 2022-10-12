@@ -1,0 +1,15 @@
+.offerContainer{
+    margin-top: 70px;
+
+    text-align: center;
+}
+.offerContainer h3{
+    margin-bottom: 23px;
+}
+
+@media only screen and (max-width: 768px){
+    /*Tablets [601px -> 1200px]*/
+    .offerContainer{
+        margin-top: 30px;
+    }    
+}

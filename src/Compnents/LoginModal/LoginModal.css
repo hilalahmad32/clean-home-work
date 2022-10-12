@@ -1,0 +1,76 @@
+.modal-header .btn-close {
+  margin-top: 0px !important;
+}
+.fristSide h1 {
+  font-weight: 600;
+}
+.fristSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65vh;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+
+  /* height: 50vh; */
+  border-radius: 20px;
+  padding: 30px;
+
+  border-radius: 20px;
+
+  background-color: #4196f8;
+}
+.form-control {
+  border: 1px solid #d0eeff !important;
+  box-shadow: inset 0px 4px 22px #f5fcff !important;
+  border-radius: 8px !important;
+  
+  padding: 15px 0px !important;
+  padding-left: 20px !important;
+}
+.logoContainer img {
+  width: 200px;
+}
+.vector {
+  width: 100%;
+}
+.blue {
+  color: #748af9;
+}
+.modalsignup {
+  border-radius: 10px;
+  width: 90%;
+  padding: 18px;
+  box-shadow: none;
+}
+
+
+/* ///Otp */
+.check{
+    
+}
+.check input:focus{
+    border: 1px solid #d0eeff !important;
+
+}
+.check input:active{
+    border: 1px solid #d0eeff !important;
+
+}
+.check input{
+    border: 1px solid #d0eeff !important;
+
+
+    
+    width: 56.85px !important;
+height: 50.64px !important;
+
+background: #FFFFFF;
+box-shadow: inset 3px 3px 8px rgba(231, 246, 255, 0.36);
+border-radius: 8px;
+    
+
+}

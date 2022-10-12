@@ -1,0 +1,57 @@
+.downloadapp{
+    margin-top: 120px;
+
+    background-color: #32B0E2;
+height: 260px;
+    
+    
+}
+.downloadappWrapper{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 30px;
+    
+}
+.downloadText {
+    padding-top: 80px;
+}
+.downloadappWrapper h3{
+    max-width: 500px;
+}
+.mobView{
+    width: 400px;
+    position: relative;
+    top: -85px;
+}
+
+@media only screen and (max-width: 993px){
+    /*Tablets [601px -> 1200px]*/
+    .downloadapp{
+        background-color: #32B0E2;
+    height: auto;
+       
+        
+    }
+    .downloadappWrapper{
+        flex-wrap: wrap;
+    }
+    .mobView{
+        width: 400px;
+        position: relative;
+        top: 0px;
+        margin: 0px 20px;
+    }
+    .downloadText{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+        
+    }
+}
+@media only screen and (max-width: 768px){
+    .downloadapp{
+            margin-top: 50px;
+    }
+        
+}

@@ -1,0 +1,39 @@
+.servicCircle{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #EBF8FF;
+    border-radius: 50%;
+}
+
+.servicCircle img{
+    width: 70%;
+}
+.delivertTExt{
+    font-weight: 400;
+    color: #959595;
+
+    
+    margin-top: 10px;
+}
+.booking{
+    max-width: 100%;
+}
+.tick{
+    width: 20px;
+}
+
+@media only screen and (max-width: 567px){
+	/*Big smartphones [426px -> 600px]*/
+    .tick{
+        width: 15px;
+    }
+    .servicCircle{
+        width: 40px;
+        height: 40px;
+    }
+    
+}

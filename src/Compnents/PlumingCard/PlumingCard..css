@@ -1,0 +1,58 @@
+.plumbingCard {
+  max-width: 500px;
+  padding: 10px 0px 10px 20px;
+
+  
+  margin: 15px;
+    
+cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #f3f4f6;
+  box-shadow: inset 3px 3px 8px rgba(231, 246, 255, 0.36);
+  border-radius: 8px;
+  justify-content: space-between;
+
+  
+
+}
+.rating{
+    margin-bottom: 5px !important;
+    
+}
+.border-dashed{
+    border: 1px dashed #D4D4D4;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+
+}
+.CardimgBox{
+    margin-left: 20px;
+    margin: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.plumbingCard img{
+    width: 150px;
+    margin: 10px 0px;
+}
+
+.plumbingCard h6{
+    color: #000000;
+    font-weight: 500;
+}
+.star{
+    color: #F8CB2E;
+}
+
+@media only screen and (max-width: 576px){
+	.plumbingCard img{
+        width: 100px;
+    }
+
+}

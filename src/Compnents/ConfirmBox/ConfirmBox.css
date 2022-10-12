@@ -1,0 +1,44 @@
+.confrim-onner-Box{
+    width: 50%;
+    box-shadow: inset 3px 3px 8px rgba(231, 246, 255, 0.36);
+border-radius: 8px;
+border: 1px solid #F2F4FF;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+.confrim-out-Box{
+    display: flex;
+    justify-content: center;
+}
+.conffirmBox img{
+    margin: 20px 0px;
+}
+.conffirmBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conffirmBox p{
+
+    margin-top: 40px;
+    color: #7C7C7C;
+    max-width: 400px;
+    text-align: center;
+}
+.btnBox button{
+    width: 100%;
+    margin: 10px ;
+    box-shadow: none;
+}
+@media only screen and (max-width: 768px){
+	/*Big smartphones [426px -> 600px]*/
+    .confrim-onner-Box{
+        width: 90%;
+    }
+}

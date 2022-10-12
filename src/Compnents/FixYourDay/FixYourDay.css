@@ -1,0 +1,77 @@
+.Bluebanner {
+  
+  background-image: url(../../asset/images/banner.png);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* flex-wrap: wrap; */
+}
+.manpiic {
+  width: 600px;
+}
+.fixTextBox {
+  max-width: 500px;
+}
+
+#yellow {
+  color: #f8cb2e;
+  text-shadow: 0px 1px 7px #7397F2;
+}
+.fixTextBox p{
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+    max-width: 400px;
+}
+.googlwbtn img{
+    margin-right: 26px;
+    
+    
+}
+.appstore{
+    width: 100px;
+}
+.googlestore{
+    width: 125px;
+
+}
+body:only-child{
+    border: 1px solid red;
+}
+
+@media only screen and (max-width: 1440px){
+	/*Big smartphones [426px -> 600px]*/
+    .Bluebanner {
+        flex-wrap: wrap;
+        
+    }
+    .fixTextBox{
+        margin-top: 120px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+	/*Big smartphones [426px -> 600px]*/
+    .fixTextBox{
+        padding: 10px;
+    }
+    .fixTextBox p{
+        margin-top: 10px;
+        margin-bottom:10px;
+    }    
+    /* .googlwbtn img{
+        margin-right: 6px;
+        width: 90px;
+    }
+    .appstore{
+        width: 70px !important;;
+    } */
+    
+}
+body:only-child{
+    border: 1px solid red !important;
+}

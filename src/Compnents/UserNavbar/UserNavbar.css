@@ -1,0 +1,97 @@
+.avtar {
+  width: 45px;
+  height: 45px;
+  background-color: #c1d1ff;
+  margin-right: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avtar img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+#dropdown-basic {
+  background-color: transparent !important;
+
+  border: 1px solid #d0eeff !important;
+  box-shadow: inset 0px 4px 22px #f5fcff !important;
+  border-radius: 8px;
+  padding: 10px 40px !important;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #000;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.userNavbar {
+    align-items: center;
+  padding: 5px 40px;
+
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  justify-content: space-between;
+  
+}
+.bell {
+  width: 35px;
+}
+.menu{
+    display: none;
+
+    font-size: 30px;
+    
+    margin: 0px 10px;
+}
+.sidedrawer{
+    width: 320px;
+    height: 100vh;
+    left: 0px;
+    transition: .4s;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 20;
+    /* padding: 20px 30px; */
+}
+.myaccount a{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+.menu{
+    display: block;
+}
+}
+@media only screen and (max-width: 576px) {
+  /*Big smartphones [426px -> 600px]*/
+  .myaccount img{
+  width: 20px;
+  }
+  .arrow{
+    font-size: 14px;
+  }
+  .bell {
+    width: 25px;
+  }
+
+  #dropdown-basic {
+    padding: 10px 20px !important;
+    display: none;
+  }
+  .avtar {
+    width: 25px;
+    height: 25px;
+  }
+  .userNavbar {
+    padding: 10px 10px;
+  }
+}

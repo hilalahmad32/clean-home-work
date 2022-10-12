@@ -1,0 +1,71 @@
+.serviceBox {
+  max-width: 100%;
+  padding: 15px 20px;
+  margin: 25px 0px;
+  background-color: #f4fbff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.srvImg p {
+  margin-bottom: 0px;
+}
+.srvImg img {
+  width: 40px;
+  align-items: center;
+}
+
+.instruction {
+  max-width: 500px;
+}
+.instruction textarea {
+    width: 100%;
+  border-radius: 10px;
+  border: 1px solid #4196f8;
+  padding: 20px 20px;
+  outline: none;
+  
+  min-height: 140px;
+
+  margin-bottom: 0px;
+  color: #4196f8;
+  font-weight: 500;
+}
+
+.uploadimg {
+  border-radius: 10px;
+  border: 1px solid #4196f8;
+  padding: 15px 30px;
+
+  color: #56a5ff;
+  font-weight: 500;
+}
+.marginleft {
+  margin-right: 15px;
+}
+.slot {
+  margin: 20px 0px;
+  width: 100% ;
+  padding: 15px 10px;
+  border: 1px solid #4196f8;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.slot h4 {
+  color: #4196f8;
+  font-weight: 500;
+}
+.bg-change {
+  background-color: rgb(248, 248, 248, 0.3);
+}
+
+@media only screen and (max-width: 576px){
+	/*Big smartphones [426px -> 600px]*/
+    .slot{
+        width: 100% !important;
+        padding: 10px 10px  ;
+    }
+}

@@ -1,0 +1,83 @@
+.acount-wrapper {
+  background-color: #f3f4f6;
+  height: 100%;
+  
+  padding: 30px;
+}
+
+.userProfile {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  padding: 25px 18px;
+  gap: 15px;
+  align-items: center;
+}
+.profilleText {
+  margin-top: 10px;
+}
+
+.profilleText h3 {
+  color: #56a5ff;
+}
+
+
+.acountOoption {
+  background-color: #fff;
+  width: 100%;
+
+  margin-top: 15px;
+  padding: 20px 30px;
+}
+.arrow {
+  color: #748af9;
+  font-size: 25px;
+}
+.myaccount {
+  display: flex;
+  align-items: center;
+}
+.myaccount img {
+  width: 30px;
+  margin-right: 25px;
+}
+.option1 {
+  margin-top: 50px;
+  cursor: pointer;
+}
+.accountDetaila {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+}
+.nameEdit {
+  max-width: 500px;
+  border: 1px solid #f3f4f6;
+  box-shadow: inset 3px 3px 8px rgba(231, 246, 255, 0.36);
+  border-radius: 8px;
+
+  padding: 20px 20px;
+}
+.edit {
+  font-size: 30px;
+
+  color: #10258b;
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Big smartphones [426px -> 600px]*/
+
+  .hide {
+    display: none;
+  }
+  .acount-wrapper {
+    padding: 10px;
+    height: auto;
+    
+  }
+  .edit {
+    font-size: 20px;
+  }
+}
